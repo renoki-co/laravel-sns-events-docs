@@ -18,7 +18,7 @@ use Rennokki\LaravelSnsEvents\Http\Controllers\SnsController;
 Route::any('/aws-sns-webhook', [SnsController::class, 'handle']);
 ```
 
- Make sure you whitelist your route in `VerifyCsrfToken.php`:
+&#x20;Make sure you whitelist your route in `VerifyCsrfToken.php`:
 
 ```php
 protected $except = [

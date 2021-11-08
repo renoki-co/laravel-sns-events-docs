@@ -26,7 +26,7 @@ protected function getNotificationEventClass(): string
 }
 ```
 
- **Make sure you also use the custom event classes in the `EventServiceProvider` class as described in the **[**Configuring Events**](../getting-started/configuring-events.md)** section.**
+&#x20;**Make sure you also use the custom event classes in the `EventServiceProvider` class as described in the **[**Configuring Events**](../getting-started/configuring-events.md)** section.**
 
 To avoid any issues, remember to extend the respective, original event classes before the change. This will save you a lot of time for debugging in case features are added to the original events.
 
